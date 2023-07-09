@@ -1,0 +1,24 @@
+@hostname=localhost
+@port=7106
+@path=auth
+@url=https://{{hostname}}:{{port}}/{{path}}
+
+POST {{url}}/register
+Content-Type: application/json
+
+{
+    "firstName": "Rafael",
+    "lastName": "Tadokoro",
+    "email": "teste@teste.com",
+    "password": "@Teste1234"
+}
+
+###
+
+POST {{url}}/login
+Content-Type: application/json
+
+{
+    "email": "teste@teste.com",
+    "password": "@Teste1234"
+}
