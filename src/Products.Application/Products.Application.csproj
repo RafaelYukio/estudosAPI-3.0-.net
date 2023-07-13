@@ -13,7 +13,6 @@
   <ItemGroup>
     <Folder Include="DTOs\Authentication\Requests\" />
     <Folder Include="DTOs\Authentication\Responses\" />
-    <Folder Include="Interfaces\Services\" />
   </ItemGroup>
 
 </Project>
