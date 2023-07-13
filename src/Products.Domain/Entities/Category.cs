@@ -6,5 +6,10 @@ namespace Products.Domain.Entities
     {
         public string Name { get; set; }
         public IEnumerable<Product> Products { get; set; }
+
+        public Category(string name)
+        {
+            Name = name;
+        }
     }
 }

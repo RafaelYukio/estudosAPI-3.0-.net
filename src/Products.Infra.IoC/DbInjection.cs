@@ -8,9 +8,9 @@ using Products.Infra.Data.Context;
 
 namespace Products.Infra.IoC
 {
-    public static class DbServices
+    public static class DbInjection
     {
-        public static void AddDbServices(this IServiceCollection services, IConfiguration configuration)
+        public static void AddDbInjections(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddDbContext<DataContext>(options =>
                 options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"))

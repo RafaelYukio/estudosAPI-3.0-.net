@@ -6,6 +6,6 @@ namespace Products.Identity.Application.Interfaces
     public interface IAuthenticationService
     {
         LoginResponse Login(LoginRequest loginRequest);
-        void Register (RegisterRequest registerRequest);
+        void Register(RegisterRequest registerRequest);
     }
 }

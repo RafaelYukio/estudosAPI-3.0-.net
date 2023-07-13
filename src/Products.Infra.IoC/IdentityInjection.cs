@@ -4,9 +4,9 @@ using Products.Identity.Application.Services;
 
 namespace Products.Infra.IoC
 {
-    public static class IdentityServices
+    public static class IdentityInjection
     {
-        public static void AddIdentityServices(this IServiceCollection service)
+        public static void AddIdentityInjections(this IServiceCollection service)
         {
             service.AddScoped<IAuthenticationService, AuthenticationService>();
         }
