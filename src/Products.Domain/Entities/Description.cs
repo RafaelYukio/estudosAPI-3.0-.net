@@ -6,5 +6,10 @@ namespace Products.Domain.Entities
     {
         public string Details { get; set; }
         public Product Product { get; set; }
+
+        public Description(string details)
+        {
+            Details = details;
+        }
     }
 }
