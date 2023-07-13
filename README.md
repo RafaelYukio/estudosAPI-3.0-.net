@@ -49,6 +49,27 @@ https://www.youtube.com/watch?v=mgeuh8k3I4g
 </ul> 
 </details>
 
+<details>
+<summary>1 - Controller (em desenvolvimento)</summary>
+<ul>
+  <li>Implementado controllers para inserção e retorno de dados</li>
+  <li>Ordem de progresso:
+    <ol>
+        <li>Criado Interfaces de Services e Repositories de Product, Description, Category e Tag</li>
+        <li>Criado Classes de Services e Repositories de Product, Description, Category e Tag</li>
+        <li>Criado Injeção de Services e Repositories de Product, Description, Category e Tag</li>
+        <li>Criado endpoint para Product</li>
+        <li>(Inicialmente colocado as classes relacionadas com o Product como nullable para testes)</li>
+    </ol>
+  </li>
+</ul> 
+</details>
+
+<details>
+<summary>1 - Indentity e JWT (a desenvolver)</summary>
+</details>
+</br>
+
 ---
 
 ### Estudos (com links para referência):
